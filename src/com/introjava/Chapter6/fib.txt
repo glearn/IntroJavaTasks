@@ -1,0 +1,52 @@
+
+********************************** version 1 **********************************
+
+  private static int fib(int n) {
+          if (n == 0) {
+              return 0;
+          }
+  
+          if (n == 1) {
+              return 1;
+          }
+
+        return fib(n - 1) + fib(n - 2);
+    }
+
+    output:
+
+    fib0 = 0
+    fib1 = 1
+    fib2 = 1
+    fib3 = 2
+    fib4 = 3
+    fib5 = 5
+    fib6 = 8
+    fib7 = 13
+    fib8 = 21
+    fib9 = 34
+    fib10 = 55
+
+    ********************************** version 2 **********************************
+
+     private static int fib(int n) {
+            if (n < 2) {
+                return 1;
+            }
+
+            return fib(n - 1) + fib(n - 2);
+     }
+
+     output:
+
+     fib0 = 1
+     fib1 = 1
+     fib2 = 2
+     fib3 = 3
+     fib4 = 5
+     fib5 = 8
+     fib6 = 13
+     fib7 = 21
+     fib8 = 34
+     fib9 = 55
+     fib10 = 89
