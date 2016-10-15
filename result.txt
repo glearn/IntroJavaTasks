@@ -1,0 +1,6 @@
+water:4
+apple:3
+bread:2
+tea:2
+lemon:2
+butter:1
